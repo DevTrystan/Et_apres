@@ -1,6 +1,6 @@
-# ⚡ vite-react-ts-tailwind-starter
+# "Et Après" project
 
-Starter using Vite + React + TypeScript + Tailwinds
+//project context
 
 ## Motivation
 
@@ -73,3 +73,10 @@ NOTICE: The template does not use [eslint-plugin-prettier](https://github.com/pr
 
 Please read: https://prettier.io/docs/en/integrating-with-linters.html.
 
+
+
+Contributor: 
+  Tristan
+  Roland Leteneur
+  Rabiya
+  Samir
