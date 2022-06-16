@@ -1,10 +1,16 @@
-import React from "react"
+import React, { ReactElement } from "react"
 
-const Button: React.FC<any> = ({
+interface ButtonProps {
+    className?:string;
+    children: ReactElement | string | number;
+}
+
+const Button: React.FC<ButtonProps> = ({
+    className,
     children
 }) => {
     return (
-        <button className="p-3 text-white bg-blue-500 rounded-full hover:bg-blue-700" onClick={()=> console.log("Coucou")}>
+        <button className={className} onClick={()=> console.log("Coucou")}>
             {children}
         </button>
     )
