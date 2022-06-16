@@ -1,19 +1,21 @@
-import React, { ReactElement } from "react"
+import React, { ReactElement } from 'react';
 
 interface ButtonProps {
-    className?:string;
-    children: ReactElement | string | number;
+  className?: string;
+  children: ReactElement | string | number;
 }
 
-const Button: React.FC<ButtonProps> = ({
-    className,
-    children
-}) => {
-    return (
-        <button className={className} onClick={()=> console.log("Coucou")}>
-            {children}
-        </button>
-    )
-}
+const Button: React.FC<ButtonProps> = ({ className, children }) => {
 
-export default Button
+  const onClick = (text: string) => {
+    console.log(`${text}`);
+  };
+
+  return (
+    <button className={className} onClick={() => onClick('Coucou')}>
+      {children}
+    </button>
+  );
+};
+
+export default Button;
