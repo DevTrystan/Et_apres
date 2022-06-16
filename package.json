@@ -1,18 +1,19 @@
 {
-  "name": "vite-react-ts-tailwind-starter",
+  "name": "et-apres",
   "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "TeXmeijin"
+    "name": "Trystan De Sousa,Rabia Bezzaz,Samir Alkabere,Roland Leteneur"
   },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "ci": "echo toto",
+    "test" : "echo testJest"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.1",
-    "daisyui": "^1.25.4",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet-async": "^1.3.0",

@@ -1,12 +1,9 @@
-# ⚡ vite-react-ts-tailwind-starter
-
-Starter using Vite + React + TypeScript + Tailwinds
-
+# ⚡Et Après...
 ## Motivation
 
-Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS
+Proposer une plateforme de communication aux utilisateur ayant subits un traumatisme médical, et de s'exprimer auprès d'une communauté ayant une expérience similaire afin d'apporter un soutien aux personnes qui le désirent.
 
-This starter uses following libraries:
+libraries utilisées:
 
 - Vite
 - React
@@ -19,57 +16,62 @@ This starter uses following libraries:
 
 ## Set up
 
+Installation des packages
+
 ```shell
 npm install
+```
+ou
+
+```shell
+npm i
+```
+
+Lancement du server de développement
+```shell
+npm run dev
 ```
 
 
 ## Vite
 
-[Vite](https://github.com/vitejs/vite) is a fast frontend build tool. According to the [README](https://github.com/vitejs/vite/blob/main/README.md), it consists of two major parts:
+[Vite](https://github.com/vitejs/vite) est un outils de construction rapide de front-end.
+Selon le [README](https://github.com/vitejs/vite/blob/main/README.md),
+il se compose en deux partie principales : 
 
-- A dev server that serves your source files over native ES modules, with rich built-in features and astonishingly fast Hot Module Replacement (HMR).
-- A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
+- Un serveur de développement qui sert vos fichiers sources sur des modules ES natifs, avec de riches fonctionnalités intégrées et un remplacement de module à chaud (HMR) étonnamment rapide.
+- Une commande de construction qui regroupe votre code avec Rollup, préconfiguré pour produire des actifs statiques hautement optimisés pour la production.
 
 ## React
 
-[React](https://github.com/facebook/react) is a JavaScript library for building user interfaces.
+[React](https://github.com/facebook/react) est une bibliothèque JavaScript permettant de créer des interfaces utilisateur.
 
-Due to its awesome renderer system, there are many [React Renderor](https://github.com/chentsulin/awesome-react-renderer). So React can be not used only Web, for example, used by [React Native](https://reactnative.dev/).
-
-Let's dive into React and Vite can use with React.
+En raison de son formidable système de rendu, il existe de nombreux [React Renderor](https://github.com/chentsulin/awesome-react-renderer). React ne peut donc pas être utilisé uniquement pour le Web, mais aussi par [React Native] (https://reactnative.dev/).
 
 ## TypeScript
 
-[TypeScript](https://github.com/microsoft/TypeScript) is a superset of JavaScript. It is just one of NPM library, but it provides an original compiler.
+[TypeScript] (https://github.com/microsoft/TypeScript) est une surcouche de JavaScript. C'est juste une des bibliothèques NPM, mais elle fournit un compilateur original.
 
-When you use TypeScript with React, you can write JSX with TypeScript, called TSX. Then you can develop views written by  **Type-Safe** template.
+Lorsque vous utilisez TypeScript avec React, vous pouvez écrire JSX avec TypeScript, appelé TSX. Ensuite, vous pouvez développer des vues écrites par le modèle **Type-Safe**.
 
 ## Tailwind CSS
 
-[Tailwind CSS](https://tailwindcss.com/) is modern utility-first CSS framework. It provides many CSS rules, but these are purged when production builds. So developers do not worry about CSS asset size for performance optimization.
+[Tailwind CSS](https://tailwindcss.com/) est un framework CSS moderne à vocation utilitaire. Il fournit de nombreuses règles CSS, mais celles-ci sont purgées lors des constructions de production. Les développeurs n'ont donc pas à se soucier de la taille des ressources CSS pour optimiser les performances.
 
-In VSCode, I recommend to use [intellisense extension](https://tailwindcss.com/docs/intellisense).
+Dans VSCode, je recommande d'utiliser [intellisense extension](https://tailwindcss.com/docs/intellisense).
 
-Frequently, React developers are worried about how to write CSS in TSX(JSX) template. You must choose from CSS Modules, [styled-components](https://styled-components.com/), [linaria](https://github.com/callstack/linaria), and so on.
-Additionally, CSS architecture is difficult about scoping, e.g. BEM, FLOCSS.
-
-When you decide to use Tailwind, you only write utility-first CSS classes, you don't have to worry about them!
-
-### daisyUI
-
-[daisyUI](https://daisyui.com/) is Tailwind CSS Components library.
-
-It prepares components CSS classes such as 'btn'. If you provide 'btn' class to `<button>` element, then there should be placed completely designed button.
-
-If you don't want to use it, just remove the package and remove config in `tailwind.config.js`.
-
-
+Lorsque vous décidez d'utiliser Tailwind, vous n'écrivez que des classes CSS à caractère utilitaire, vous n'avez pas à vous en soucier !
 ## Formatter and Linter
 
-Already set up [ESLint](https://eslint.org/) and [Prettier](https://prettier.io/). You can customize the rules.
+Déjà configuré [ESLint](https://eslint.org/) et [Prettier](https://prettier.io/). Vous pouvez personnaliser les règles.
 
-NOTICE: The template does not use [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) and [prettier-eslint](https://github.com/prettier/prettier-eslint). So I recommend that running commands individually. e.g. `prettier && eslint`.
+REMARQUE : Le modèle n'utilise pas [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) et [prettier-eslint](https://github.com/prettier/prettier-eslint). Je recommande donc d'exécuter les commandes individuellement. Par exemple, `prettier && eslint`.
 
-Please read: https://prettier.io/docs/en/integrating-with-linters.html.
+Veuillez lire : https://prettier.io/docs/en/integrating-with-linters.html.
 
+Contributeur du projet:
+
+- Trystan De Sousa
+- Rabia Bezzaz
+- Samir Alkabere
+- Roland Leteneur
