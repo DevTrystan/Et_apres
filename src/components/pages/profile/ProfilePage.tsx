@@ -5,11 +5,7 @@ const ProfilePage: React.FC<any> = () => {
   return (
     <>
       <div className="min-h-screen">
-        <div>
-          <div>
             <Button>Coucou</Button>
-          </div>
-        </div>
       </div>
     </>
   );
