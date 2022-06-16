@@ -72,6 +72,6 @@ Veuillez lire : https://prettier.io/docs/en/integrating-with-linters.html.
 Contributeur du projet:
 
 - Trystan De Sousa
-- ,Rabia Bezzaz
+- Rabia Bezzaz
 - Samir Alkabere
 - Roland Leteneur
