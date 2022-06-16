@@ -1,9 +1,7 @@
 # ⚡Et Après...
 ## Motivation
 
-Improve building your faster **prototyping** by using Vite, TypeScript, React, TailwindCSS
-
-// description du projet
+Proposer une plateforme de communication aux utilisateur ayant subits un traumatisme médical, et de s'exprimer auprès d'une communauté ayant une expérience similaire afin d'apporter un soutien aux personnes qui le désirent.
 
 libraries utilisées:
 
@@ -71,3 +69,9 @@ REMARQUE : Le modèle n'utilise pas [eslint-plugin-prettier](https://github.com/
 
 Veuillez lire : https://prettier.io/docs/en/integrating-with-linters.html.
 
+Contributeur du projet:
+
+- Trystan De Sousa
+- ,Rabia Bezzaz
+- Samir Alkabere
+- Roland Leteneur
