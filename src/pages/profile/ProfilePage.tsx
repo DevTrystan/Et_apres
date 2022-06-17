@@ -9,7 +9,7 @@ const ProfilePage: React.FC<any> = () => {
 				<Button
 					color="blue"
 					rounded="full"
-					onClick={() => console.log('Coucou')}
+					onClick={() => console.log('Coudcou')}
 				>
 					Coucou
 				</Button>
