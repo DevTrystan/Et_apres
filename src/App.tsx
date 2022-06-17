@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, Switch, BrowserRouter, Route } from 'react-router-dom';
-import { ProfilPage } from './components/pages';
+import { ProfilPage } from './pages';
 
 const Routes: React.FC<unknown> = () => {
   return (
