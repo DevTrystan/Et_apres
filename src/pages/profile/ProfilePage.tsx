@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '~/components/Layout/Layout';
-import { Button } from '../../components/UI';
+import { Button } from '../../components/ui';
 
 const ProfilePage: React.FC<any> = () => {
 	return (
