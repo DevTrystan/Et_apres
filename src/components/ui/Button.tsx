@@ -8,7 +8,7 @@ interface ButtonProps {
 const Button: React.FC<ButtonProps> = ({ className, children }) => {
 
   const onClick = (text: string) => {
-    console.log(`${text}`);
+    console.log(`${text}.`);
   };
 
   return (
