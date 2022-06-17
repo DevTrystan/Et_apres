@@ -1,4 +1,5 @@
 # ⚡Et Après...
+
 ## Motivation
 
 Proposer une plateforme de communication aux utilisateur ayant subits un traumatisme médical, et de s'exprimer auprès d'une communauté ayant une expérience similaire afin d'apporter un soutien aux personnes qui le désirent.
@@ -21,6 +22,7 @@ Installation des packages
 ```shell
 npm install
 ```
+
 ou
 
 ```shell
@@ -28,16 +30,21 @@ npm i
 ```
 
 Lancement du server de développement
+
 ```shell
 npm run dev
 ```
 
+## SNIPET
+
+Vous pouvez utiliser une snippet pour creer la structure d'un composant rapidement
+tapez aftercmp et TAB
 
 ## Vite
 
 [Vite](https://github.com/vitejs/vite) est un outils de construction rapide de front-end.
 Selon le [README](https://github.com/vitejs/vite/blob/main/README.md),
-il se compose en deux partie principales : 
+il se compose en deux partie principales :
 
 - Un serveur de développement qui sert vos fichiers sources sur des modules ES natifs, avec de riches fonctionnalités intégrées et un remplacement de module à chaud (HMR) étonnamment rapide.
 - Une commande de construction qui regroupe votre code avec Rollup, préconfiguré pour produire des actifs statiques hautement optimisés pour la production.
@@ -61,6 +68,7 @@ Lorsque vous utilisez TypeScript avec React, vous pouvez écrire JSX avec TypeSc
 Dans VSCode, je recommande d'utiliser [intellisense extension](https://tailwindcss.com/docs/intellisense).
 
 Lorsque vous décidez d'utiliser Tailwind, vous n'écrivez que des classes CSS à caractère utilitaire, vous n'avez pas à vous en soucier !
+
 ## Formatter and Linter
 
 Déjà configuré [ESLint](https://eslint.org/) et [Prettier](https://prettier.io/). Vous pouvez personnaliser les règles.
