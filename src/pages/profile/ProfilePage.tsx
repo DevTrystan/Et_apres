@@ -1,9 +1,10 @@
 import React from 'react';
-import { Button } from '../../components/ui';
+import Layout from '~/components/Layout/Layout';
+import { Button } from '../../components/UI';
 
 const ProfilePage: React.FC<any> = () => {
 	return (
-		<>
+		<Layout>
 			<div className="min-h-screen">
 				<Button
 					color="blue"
@@ -13,7 +14,7 @@ const ProfilePage: React.FC<any> = () => {
 					Coucou
 				</Button>
 			</div>
-		</>
+		</Layout>
 	);
 };
 
