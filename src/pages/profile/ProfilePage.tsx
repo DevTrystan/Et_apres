@@ -1,19 +1,20 @@
 import React from 'react';
+import Layout from '~/components/Layout/Layout';
 import { Button } from '../../components/ui';
 
 const ProfilePage: React.FC<any> = () => {
 	return (
-		<>
+		<Layout>
 			<div className="min-h-screen">
 				<Button
 					color="blue"
 					rounded="full"
-					onClick={() => console.log('Coucou')}
+					onClick={() => console.log('Coudcou')}
 				>
 					Coucou
 				</Button>
 			</div>
-		</>
+		</Layout>
 	);
 };
 
