@@ -16,7 +16,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 			<div>
 				<Link
 					to="/"
-					className="px-4 py-2 text-white bg-green-500 border rounded-lg hover:bg-green-700"
+					className="px-4 py-2 text-white bg-green-600 border rounded-lg hover:bg-green-700"
 				>
 					Todo futures Logo
 				</Link>
