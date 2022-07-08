@@ -13,6 +13,14 @@ const Navbar: React.FC<NavbarProps> = () => {
 	// le a refresh, moins efficace sur une one page application
 	return (
 		<div className="flex items-center h-16">
+			<div>
+				<Link
+					to="/"
+					className="px-4 py-2 text-white bg-green-500 border rounded-lg hover:bg-green-700"
+				>
+					Todo future Logo
+				</Link>
+			</div>
 			<ul className="flex justify-around w-1/3">
 				<p>for dev : lien navbar &gt; affichage temporaire</p>
 				{links.map((link) => (
