@@ -12,7 +12,7 @@ const Navbar: React.FC<NavbarProps> = () => {
 	// le composant Link permet de faire des redirection interne sans refresh la page
 	// le a refresh, moins efficace sur une one page application
 	return (
-		<div className="flex items-center h-16">
+		<div className="flex items-center h-16 bg-green-main">
 			<div>
 				<Link
 					to="/"
