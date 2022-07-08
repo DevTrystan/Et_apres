@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import React, { ReactElement } from 'react';
+import Navbar from './Navbar/Navbar';
 
 export interface LayoutProps {
 	children: ReactElement | string | number;
@@ -7,7 +8,7 @@ export interface LayoutProps {
 	container?: boolean;
 }
 
-export const NAVBAR_HEIGHT = 64;
+export const NAVBAR_HEIGHT = 100;
 
 const Layout: React.FC<LayoutProps> = ({
 	children,
@@ -16,7 +17,7 @@ const Layout: React.FC<LayoutProps> = ({
 }) => {
 	return (
 		<>
-			{displayNavbar && <p>TODO NAVBAR</p>}
+			{displayNavbar && <Navbar />}
 			<div style={{ paddingTop: displayNavbar ? NAVBAR_HEIGHT : 0 }}>
 				<div
 					className={clsx({
