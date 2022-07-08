@@ -1,5 +1,6 @@
-import ProfilPage from './profile/ProfilePage';
+import HomePage from './homepage';
 import OtherPage from './other/OtherPage';
+import ProfilPage from './profile/ProfilePage';
 import NotFound from './404';
 
-export { OtherPage, ProfilPage, NotFound };
+export { HomePage, OtherPage, ProfilPage, NotFound };
