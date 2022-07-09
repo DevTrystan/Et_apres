@@ -1,9 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export interface NavbarProps {}
+export interface NavbarProps {
+	registerUrl?: string;
+	loginUrl?: string;
+}
 
-const Navbar: React.FC<NavbarProps> = () => {
+const Navbar: React.FC<NavbarProps> = ({
+	registerUrl = '/register',
+	loginUrl = '/login',
+}) => {
 	const links = [
 		{ id: '1', name: 'Profile', uri: '/me' },
 		{ id: '2', name: 'Autre(test)', uri: '/other' },
@@ -12,28 +18,45 @@ const Navbar: React.FC<NavbarProps> = () => {
 	// le composant Link permet de faire des redirection interne sans refresh la page
 	// le a refresh, moins efficace sur une one page application
 	return (
-		<div className="flex items-center h-16 bg-green-main">
+		<div className="flex items-center justify-around bg-green-main">
+			{/* Logo Et Après */}
 			<div>
-				<Link
-					to="/"
-					className="px-4 py-2 text-white bg-green-600 border rounded-lg hover:bg-green-700"
-				>
-					Todo futures Logo
+				{/* change temporary logo with real logo */}
+				<Link to="/" className="flex items-center gap-2">
+					<img
+						src="/public/temporary_logo.png"
+						alt="Logo principal du site Et Après"
+						className="w-14 h-14"
+					/>
+					<span>Et Après</span>
 				</Link>
 			</div>
-			<ul className="flex justify-around w-1/3">
-				<p>for dev : lien navbar &gt; affichage temporaire</p>
-				{links.map((link) => (
-					<li key={link.id}>
-						<Link
-							to={`${link.uri}`}
-							className="px-4 py-2 text-white bg-blue-500 border rounded-lg hover:bg-indigo-700"
-						>
-							{link.name}
-						</Link>
-					</li>
-				))}
-			</ul>
+			{/* navLinks */}
+			<div>
+				<ul className="flex gap-2">
+					{links.map((link) => (
+						<li className="hover:underline" key={link.id}>
+							<Link to={`${link.uri}`}>{link.name}</Link>
+						</li>
+					))}
+				</ul>
+			</div>
+			{/* auth Links */}
+			<div className="flex items-center gap-2">
+				<Link className="hover:underline" to={loginUrl}>
+					Connexion
+				</Link>
+				<Link
+					to={registerUrl}
+					className="px-4 py-2 bg-green-500 rounded-full hover:bg-green-600"
+				>
+					Inscription
+				</Link>
+				{/* if Connected User */}
+				<Link to="/" className="hidden">
+					Déconnexion
+				</Link>
+			</div>
 		</div>
 	);
 };

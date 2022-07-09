@@ -1,32 +1,29 @@
 import clsx from 'clsx';
-import React, { ReactElement } from 'react';
+import React from 'react';
 import Navbar from './Navbar/Navbar';
 
 export interface LayoutProps {
-	children: ReactElement | string | number;
-	displayNavbar?: boolean;
-	container?: boolean;
+	children: React.ReactNode;
+	className?: string;
+	loginUrl?: string;
+	registerUrl?: string;
 }
 
 export const NAVBAR_HEIGHT = 100;
 
 const Layout: React.FC<LayoutProps> = ({
+	loginUrl,
+	registerUrl,
+	className,
 	children,
-	displayNavbar = true,
-	container = true,
 }) => {
 	return (
 		<>
-			{displayNavbar && <Navbar />}
-			<div style={{ paddingTop: displayNavbar ? NAVBAR_HEIGHT : 0 }}>
-				<div
-					className={clsx({
-						'max-w-screen-xl mx-auto': container,
-					})}
-				>
-					<div>{children}</div>
-				</div>
-			</div>
+			{/* meta */}
+			<Navbar loginUrl={loginUrl} registerUrl={registerUrl} />
+			<main className={clsx('pt-10', className)}>{children}</main>
+			{/* Footer */}
+			{/* Cookies */}
 		</>
 	);
 };
