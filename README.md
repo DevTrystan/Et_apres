@@ -83,3 +83,7 @@ Contributeur du projet:
 - Rabia Bezzaz
 - Samir Alkabere
 - Roland Leteneur
+
+typo Black Mango
+
+db server lunch: json-server --watch db.json

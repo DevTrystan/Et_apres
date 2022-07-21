@@ -1,0 +1,49 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"pseudo": "Test",
+			"firstName": "Nom",
+			"lastName": "Prenom",
+			"gender": "male",
+			"birthDate": "01/01/1990",
+			"email": "test@yopmail.com",
+			"password": "1234",
+			"avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/480px-Yin_yang.svg.png",
+			"description": "Ceci est la description Test",
+			"city": "Lille",
+			"connected": true,
+			"category": "TODO"
+		},
+		{
+			"id": 2,
+			"pseudo": "Test2",
+			"firstName": "Nom2",
+			"lastName": "Prenom2",
+			"gender": "female",
+			"birthDate": "01/03/1992",
+			"email": "test2@yopmail.com",
+			"password": "1234",
+			"avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/480px-Yin_yang.svg.png",
+			"description": "Ceci est la description Test2",
+			"city": "Lille",
+			"connected": false,
+			"category": "TODO"
+		},
+		{
+			"id": 3,
+			"pseudo": "Test3",
+			"firstName": "Nom3",
+			"lastName": "Prenom3",
+			"gender": "male",
+			"birthDate": "01/03/1990",
+			"email": "test3@yopmail.com",
+			"password": "1234",
+			"avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Yin_yang.svg/480px-Yin_yang.svg.png",
+			"description": "Ceci est la description Test3",
+			"city": "Lille",
+			"connected": true,
+			"category": "TODO"
+		}
+	]
+}
