@@ -31,7 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({
 					/>
 					<span>Et Après</span>
 				</Link>
-				<EtApresLogo />
+				<img src={EtApresLogo} alt="" />
 			</div>
 			{/* navLinks */}
 			<div>
