@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import EtApresLogo from '../../../icons/et_apres_logo.svg';
 
 export interface NavbarProps {
 	registerUrl?: string;
@@ -30,6 +31,7 @@ const Navbar: React.FC<NavbarProps> = ({
 					/>
 					<span>Et Après</span>
 				</Link>
+				<EtApresLogo />
 			</div>
 			{/* navLinks */}
 			<div>
