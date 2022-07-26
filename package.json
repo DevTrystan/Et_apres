@@ -1,0 +1,19 @@
+{
+  "name": "et_apres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevTrystan/Et_apres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevTrystan/Et_apres/issues"
+  },
+  "homepage": "https://github.com/DevTrystan/Et_apres#readme"
+}
