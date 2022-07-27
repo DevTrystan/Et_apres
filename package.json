@@ -1,17 +1,18 @@
 {
-  "name": "et_apres",
+  "name": "et-apres",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Trystan De Sousa,Rabia Bezzaz,Samir Alkabere,Roland Leteneur"
+  },
+  "main": "",
   "scripts": {
-    "test": "echo testJest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DevTrystan/Et_apres.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/DevTrystan/Et_apres/issues"
   },
