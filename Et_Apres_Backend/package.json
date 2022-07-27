@@ -1,0 +1,13 @@
+{
+  "name": "et-apres-backend",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Trystan De Sousa,Rabia Bezzaz,Samir Alkabere,Roland Leteneur"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo testJest"
+  },
+  "keywords": []
+}
