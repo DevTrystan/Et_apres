@@ -1,8 +1,4 @@
-# ⚡Et Après...
-
-## Motivation
-
-Proposer une plateforme de communication aux utilisateur ayant subits un traumatisme médical, et de s'exprimer auprès d'une communauté ayant une expérience similaire afin d'apporter un soutien aux personnes qui le désirent.
+# ⚡Et Après Frontend...
 
 libraries utilisées:
 
@@ -14,6 +10,26 @@ libraries utilisées:
   - daisyUI
 - ESLint
 - Prettier
+
+## Set up
+
+Installation des packages
+
+```shell
+npm install
+```
+
+ou
+
+```shell
+npm i
+```
+
+Lancement du server de développement
+
+```shell
+npm run dev
+```
 
 ## SNIPET
 
