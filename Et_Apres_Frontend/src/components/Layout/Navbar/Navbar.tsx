@@ -19,19 +19,19 @@ const Navbar: React.FC<NavbarProps> = ({
 	// le composant Link permet de faire des redirection interne sans refresh la page
 	// le a refresh, moins efficace sur une one page application
 	return (
-		<div className="flex items-center justify-around bg-green-main">
+		<div className="flex items-center justify-around  border-b-2 border-black">
 			{/* Logo Et Après */}
 			<div>
 				{/* change temporary logo with real logo */}
 				<Link to="/" className="flex items-center gap-2">
 					<img
-						src="/public/temporary_logo.png"
+						src={EtApresLogo}
 						alt="Logo principal du site Et Après"
-						className="w-14 h-14"
+						className="w-20 h-20"
 					/>
+
 					<span>Et Après</span>
 				</Link>
-				<img src={EtApresLogo} alt="" />
 			</div>
 			{/* navLinks */}
 			<div>
