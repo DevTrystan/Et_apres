@@ -73,6 +73,10 @@ REMARQUE : Le modèle n'utilise pas [eslint-plugin-prettier](https://github.com/
 
 Veuillez lire : https://prettier.io/docs/en/integrating-with-linters.html.
 
+## Test
+
+Utilisation de Jest pour tester les fonctions
+
 Contributeur du projet:
 
 - Trystan De Sousa
