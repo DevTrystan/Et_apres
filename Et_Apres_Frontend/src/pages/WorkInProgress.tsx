@@ -1,19 +1,17 @@
 import React from 'react';
 
-import clsx from 'clsx';
+import Layout from '~/components/Layout/Layout';
 
-export interface WorkInProgressProps {
-	className?: string;
-}
-
-const WorkInProgress: React.FC<WorkInProgressProps> = ({ className = '' }) => {
+const WorkInProgress: React.FC<unknown> = () => {
 	return (
-		<div className={clsx('', className)}>
-			<img
-				src="../website-work-in-progress.jpg"
-				alt="Désolé, cette page est en cours de création, revenez bientôt"
-			/>
-		</div>
+		<Layout>
+			<div>
+				<img
+					src="/public/img/website-work-in-progress.jpg"
+					alt="Désolé, cette page est en cours de création, revenez bientôt"
+				/>
+			</div>
+		</Layout>
 	);
 };
 

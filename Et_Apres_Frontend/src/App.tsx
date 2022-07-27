@@ -1,6 +1,6 @@
 import React from 'react';
 import { Redirect, Switch, BrowserRouter, Route } from 'react-router-dom';
-import { HomePage, OtherPage, ProfilPage } from './pages';
+import { HomePage, OtherPage, ProfilPage, WorkInProgress } from './pages';
 
 const Routes: React.FC<unknown> = () => {
 	return (
@@ -12,6 +12,10 @@ const Routes: React.FC<unknown> = () => {
 				<Route path="/home" component={HomePage} />
 				<Route path="/me" component={ProfilPage} />
 				<Route path="/other" component={OtherPage} />
+
+				{/* auth routes */}
+				<Route path="/login" component={WorkInProgress} />
+				<Route path="/register" component={WorkInProgress} />
 			</Switch>
 		</div>
 	);
