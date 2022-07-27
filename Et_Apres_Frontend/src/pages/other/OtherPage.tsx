@@ -1,7 +1,7 @@
 import React from 'react';
 
 import clsx from 'clsx';
-import Layout from '~/components/Layout/Layout';
+import Layout from '../../components/Layout/Layout';
 
 export interface OtherPageProps {
 	className?: string;
