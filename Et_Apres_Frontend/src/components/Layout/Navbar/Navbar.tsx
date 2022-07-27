@@ -11,6 +11,12 @@ const Navbar: React.FC<NavbarProps> = ({
 	registerUrl = '/register',
 	loginUrl = '/login',
 }) => {
+	// TODO: retirer quand l'auhentification est creer
+	const ConnectedUser = {
+		userName: 'Marboulin',
+		connected: false,
+	};
+
 	const links = [
 		{ id: '1', name: 'Profile', uri: '/me' },
 		{ id: '2', name: 'Autre(test)', uri: '/other' },
@@ -45,19 +51,27 @@ const Navbar: React.FC<NavbarProps> = ({
 			</div>
 			{/* auth Links */}
 			<div className="flex items-center gap-2">
-				<Link className="hover:underline" to={loginUrl}>
-					Connexion
-				</Link>
-				<Link
-					to={registerUrl}
-					className="px-4 py-2 bg-green-500 rounded-full hover:bg-green-600"
-				>
-					Inscription
-				</Link>
-				{/* if Connected User */}
-				<Link to="/" className="hidden">
-					Déconnexion
-				</Link>
+				{/* creer l'ui pour l'affichage d'un user et userMenu (voir headlessUi pour un navMenu) */}
+				{ConnectedUser.connected ? (
+					<Link
+						to="/"
+						className="px-4 py-2 bg-green-500 rounded-full hover:bg-green-600"
+					>
+						deconnexion
+					</Link>
+				) : (
+					<>
+						<Link className="hover:underline" to={loginUrl}>
+							Connexion
+						</Link>
+						<Link
+							to={registerUrl}
+							className="px-4 py-2 bg-green-500 rounded-full hover:bg-green-600"
+						>
+							Inscription
+						</Link>
+					</>
+				)}
 			</div>
 		</div>
 	);
